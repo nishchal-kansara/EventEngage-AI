@@ -182,9 +182,7 @@ label_encoders.pkl
 </p>
 
 ### 9.2 Visual Explaination of Project
-<video src="http://nishchal-kansara.web.app/demonstration/YBAISolution_Task.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+Watch: https://drive.google.com/file/d/1NgOVoiLFG3mlVYwryW06ZLYjihpqe9Re/view
 Download: https://github.com/nishchal-kansara/EventEngage-AI/raw/refs/heads/main/demonstration/video.mp4
 
 ## 10. Author
