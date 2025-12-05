@@ -43,9 +43,7 @@ The dataset contains detailed information about event attendees, including demog
   - Classification: `Attendance_Status`
 
 1. Dataset Name: `ybai_original.csv`, `ybai_cleaned.csv`  
-2. Source: 
-- https://www.datayb.com/datasets/dataset-details/datayb_dataset_details_j2z6gunhqn5s2j3/
-- https://nishchal-kansara.web.app/dataset/ybai_original.csv
+2. Dataset Source: https://www.datayb.com/datasets/dataset-details/datayb_dataset_details_j2z6gunhqn5s2j3/
 
 ## 3. Project Structure  
 ```
@@ -182,8 +180,8 @@ label_encoders.pkl
 </p>
 
 ### 9.2 Visual Explaination of Project
-Watch: https://drive.google.com/file/d/1NgOVoiLFG3mlVYwryW06ZLYjihpqe9Re/view
-Download: https://github.com/nishchal-kansara/EventEngage-AI/raw/refs/heads/main/demonstration/video.mp4
+- Watch: https://drive.google.com/file/d/1NgOVoiLFG3mlVYwryW06ZLYjihpqe9Re/view
+- Download: https://github.com/nishchal-kansara/EventEngage-AI/raw/refs/heads/main/demonstration/video.mp4
 
 ## 10. Author
 Hi, I'm Nishchal Kansara. I built EventEngage AI to help event teams predict attendee responses and understand what truly drives engagement - in a way that’s simple, accurate, and actionable.
