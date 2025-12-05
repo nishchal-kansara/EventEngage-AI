@@ -52,15 +52,21 @@ The dataset contains detailed information about event attendees, including demog
 EventEngage AI/
 │
 ├── dataset/
-│   ├── ybai_original/          # Raw dataset files
-│   └── ybai_cleaned.csv        # Preprocessed, cleaned dataset
+│   ├── ybai_cleaned.csv        # Preprocessed, cleaned dataset
+│   └── ybai_original.csv          # Raw dataset files
+│
+├── demonstration/
+│   ├── charts/        # Charts Images (EDA)
+│   └── video.mp4          # Visual Explaination of Project
 │
 ├── models/
-│   ├── rf_reg.pkl              # Random Forest Regression model
+│   ├── label_encoders.pkl      # Encoders for categorical features
 │   ├── rf_clf.pkl              # Random Forest Classification model
-│   ├── scaler_reg.pkl          # Scaler used for regression model
+│   ├── rf_reg.pkl              # Random Forest Regression model
 │   ├── scaler_clf.pkl          # Scaler used for classification model
-│   └── label_encoders.pkl      # Encoders for categorical features
+│   └── scaler_reg.pkl          # Scaler used for regression model
+│
+├── README.md
 │
 ├── app.py                      # Main application script (API/UI/Prediction)
 │
@@ -157,7 +163,29 @@ scaler_clf.pkl
 label_encoders.pkl
 ```
 
-## 9. 
+## 9. Screenshots & Visualization
+### 9.1 Exploratory Data Analysis
+<p float="left">
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/1.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/2.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/3.jpg?raw=true" width="30%" />
+</p>
+<p float="left">
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/4.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/5.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/6.jpg?raw=true" width="30%" />
+</p>
+<p float="left">
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/7.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/8.jpg?raw=true" width="30%" />
+  <img src="https://github.com/nishchal-kansara/EventEngage-AI/blob/main/demonstration/charts/9.jpg?raw=true" width="30%" />
+</p>
+
+### 9.2 Visual Explaination of Project
+<video src="http://nishchal-kansara.web.app/demonstration/YBAISolution_Task.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+Download: https://github.com/nishchal-kansara/EventEngage-AI/raw/refs/heads/main/demonstration/video.mp4
 
 ## 10. Author
 Hi, I'm Nishchal Kansara. I built EventEngage AI to help event teams predict attendee responses and understand what truly drives engagement - in a way that’s simple, accurate, and actionable.
